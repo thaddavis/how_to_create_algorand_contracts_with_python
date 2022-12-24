@@ -8,6 +8,8 @@ packages = [{include = "how_to_create_algorand_contracts_with_python"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
 
 
 [build-system]
