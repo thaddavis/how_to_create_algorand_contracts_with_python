@@ -1,0 +1,28 @@
+{
+  "name": "how_to_create_algorand_contracts_with_python",
+  "version": "1.0.0",
+  "description": "In this project, we are exploring how to setup files and folders on our computer for developing Python applications.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nodemon --watch '**/*' -e py --exec poetry run pytest",
+    "coverage": "poetry run pytest --cov=src tests/",
+    "dev": "nodemon --watch '**/*' -e py --exec poetry run main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaddavis/how_to_create_algorand_contracts_with_python.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaddavis/how_to_create_algorand_contracts_with_python/issues"
+  },
+  "homepage": "https://github.com/thaddavis/how_to_create_algorand_contracts_with_python#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
