@@ -11,6 +11,8 @@ python = "^3.10"
 pandas = "^1.5.2"
 matplotlib = "^3.6.2"
 
+[tool.poetry.scripts]
+main = "src:main"
 
 [build-system]
 requires = ["poetry-core"]
