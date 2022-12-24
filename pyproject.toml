@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "how-to-create-algorand-contracts-with-python"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "how_to_create_algorand_contracts_with_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
